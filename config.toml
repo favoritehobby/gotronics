@@ -1,0 +1,4 @@
+baseURL = "http://gotronics.net/"
+languageCode = "en-us"
+title = "gotronics Site"
+theme = "Hargo"

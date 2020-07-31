@@ -1,0 +1,6 @@
+[submodule "hargo"]
+	path = hargo
+	url = https://github.com/favoritehobby/hargo
+[submodule "themes/hargo"]
+	path = themes/hargo
+	url = https://github.com/favoritehobby/hargo.git

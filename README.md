@@ -142,3 +142,4 @@ disqusShortname = "XXX"
 This theme is licensed under the [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/).
 
 Read More - [LICENSE](LICENSE)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9628c69f-82c6-4d39-885d-94b69cc60676/deploy-status)](https://app.netlify.com/sites/gotronics/deploys)

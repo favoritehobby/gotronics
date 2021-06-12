@@ -1,11 +1,7 @@
 # Hugo HTML5up Alpha
-
 Hugo HTML5up Alpha is a port of the static HTML template [Alpha by HTML5 UP](https://html5up.net/alpha). It is designed to mirror the look and feel of the original template as closely as possible while taking advantage of all the best features Hugo has to offer.
-
 ![](https://github.com/dewittn/hugo-html5up-alpha/blob/master/images/screenshot.png)
-
 ## Features
-
 - Blog
 - Sections
 - Taxonomies
@@ -15,39 +11,26 @@ Hugo HTML5up Alpha is a port of the static HTML template [Alpha by HTML5 UP](htt
 - Menus and Submenus
 - OpenGraph Metadata
 - Customizable Homepage
-
 ## Demo
-
 This theme comes with a more comprehensive demo, which closely mimics the original [HTML5 UP](https://html5up.net/alpha) theme and demonstrates more of its features. You can view a fully functional demo at:
-
 https://hugo-html5up-alpha.nelsonroberto.com/
-
 To run the demo locally use the following commands:
-
 ```
 $ git clone https://github.com/dewittn/hugo-html5up-alpha/
 $ cd hugo-html5up-alpha/exampleSite
 $ hugo server --themesDir ../..
 ```
-
-
 ## Configuration
-
 See the demo's configuration as an example:
-
 https://github.com/dewittn/hugo-html5up-alpha/blob/master/exampleSite/config.toml
-
 ### Homepage
 The homepage has five sections that are customizable and removable.
-
 - Banner
 - Highlight
 - Features
 - Blog
 - Call to Action
-
 Settings for the homepage come from `data\homepage.yml`.
-
 ```
 ### Banner ###
 banner:
@@ -60,14 +43,12 @@ banner:
       class: "primary"
     - title: "Learn More"
       link: "#"
-
 ### Highlight ###
 highlight:
   enable: true
   header: "Introducing the ultimate mobile app <br /> for doing stuff with your phone"
   content: "Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare<br /> adipiscing nunc adipiscing. Condimentum turpis massa."
   image: "images/pic01.jpg"
-
 ### Features ###
 features:
   enable: true
@@ -105,10 +86,8 @@ cta:
   header: "Sign up for beta access"
   content: "Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc."
 ```
-
 ### Global Banner
 The global header is also configurable by modifying the `globalheader.yml` file.
-
 ```
 title: "[Alpha](/) by HTML5 UP"
 button:
@@ -116,30 +95,19 @@ button:
   title: "Sign up"
   link: "#"
 ```
-
 ### Cover Image
-
 The cover image URL is hard-coded, therefore to replace this add an image to the following location in your Hugo application:
-
 ```
 /static/images/banner.jpg
 ```
-
 ### Comments powered by Disqus
-
 The comments section is **not** shown unless a Disqus code is set in the `config.toml` file.
-
 ```
 disqusShortname = "XXX"
 ```
-
 ## Original Theme Credits
-
 - [Alpha by HTML5 UP](https://html5up.net/alpha)
-
 ## License
-
 This theme is licensed under the [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/).
-
 Read More - [LICENSE](LICENSE)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9628c69f-82c6-4d39-885d-94b69cc60676/deploy-status)](https://app.netlify.com/sites/gotronics/deploys)
